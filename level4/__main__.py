@@ -15,10 +15,9 @@ while not done:
             done = True
         if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             done = True
-    
+
     screen.fill((255, 255, 255))
-    screen.blit(text,
-        (320 - text.get_width() // 2, 240 - text.get_height() // 2))
-    
+    screen.blit(text, (320 - text.get_width() // 2, 240 - text.get_height() // 2))
+
     pygame.display.flip()
     clock.tick(60)

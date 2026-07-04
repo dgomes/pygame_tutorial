@@ -9,4 +9,5 @@ while not done:
         if event.type == pygame.QUIT:
             done = True
 
+    screen.fill((255, 0, 0))
     pygame.display.flip()
